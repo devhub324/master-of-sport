@@ -2,6 +2,9 @@ import express from "express";
 import { User } from "../models/userModel";
 import Bmi from "../models/bmiModel";
 import auth from "../middleware/auth";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const router = express.Router();
 
