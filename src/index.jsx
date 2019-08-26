@@ -6,7 +6,7 @@ import "mdbreact/dist/css/mdb.css";
 import App from "./App";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
-import "./styles/global.scss";
+import "./styles/main.scss";
 
 ReactDOM.render(
   <Provider store={store}>
